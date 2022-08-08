@@ -33,12 +33,15 @@ body{
 
 /* header */
 
-header{
+.header{
     letter-spacing: 0.02em;
 }
 
-/* header nav */
+/*  Navigation */
 
+.nav-list .nav-link:current{
+    color: var(--bgd-button);
+}
 
 .nav-link {
     color: var(--titel-color-text);
@@ -51,7 +54,7 @@ header{
 }
 
 
-/* header logo */
+/* logotype */
 
 .logo{
     color: #000 ;
@@ -66,11 +69,11 @@ header{
     text-decoration: none;
 }
 
-.logo>span{
+.web{
     color:#2196F3;
 }           
 
-/* header connection */     
+/* TOP Contacts */     
 .contact-top{
     color: var(--main-color-text);
     font-weight: 500;
@@ -96,9 +99,9 @@ header{
     letter-spacing: 0.06em;
 }
 
-/* batton */
+/* Batton */
 
-button{
+.button{
     color:  var(--white-color-text);
     background-color: var(--bgd-button);
 
@@ -111,7 +114,8 @@ button{
     cursor:pointer;
 }
 
-botton:hover{
+.botton:hover,
+.botton:focus{
     color: var(--bgd-button);
     background-color:var(--white-color-text);
 }
@@ -131,14 +135,15 @@ botton:hover{
 }
 
 .post{
-    font-weight: 400;
+   
     font-size: 14px;
     line-height: 1.7;
 }
 
 /* Section works img */
 
-.title{
+.title-work,
+.title-team{
     color: var(--titel-color-text);
 
     font-weight: 700;
@@ -164,7 +169,7 @@ botton:hover{
     line-height: 1.19;
 }
 
-/* footer */
+/* Footer */
 
 .connection-bottom{
     background-color: var(--bgd-accent-color);
