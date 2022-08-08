@@ -1,0 +1,167 @@
+:root{
+    --main-color-text:#757575;
+    --titel-color-text: #212121;
+    --white-color-text: #FFFFFF;
+    --bgd-main-color: #F5F5F5;
+    --bgd-accent-color:#2F303A;
+    --bgd-button:#2196F3;
+
+
+}
+
+body{
+    color: var(--main-color-text)
+    background-color: var(--bgd-main-color);
+
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+.list{
+    list-style: none;
+}
+
+/* header */
+
+header{
+    letter-spacing: 0.02em;
+}
+
+/* header nav */
+
+.nav-link {
+    color: var(--titel-color-text);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+
+    text-decoration: none;
+}
+
+
+/* header logo */
+
+.logo{
+    color: #000 ;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.92;
+ 
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo>span{
+    color:#2196F3;
+    
+}
+
+/* header contact */
+.contact{
+    color: var(--main-color-text);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+
+/* Main */
+
+.bgd-main{ 
+    background-color: var(--bgd-accent-color);
+}   
+
+.main-title{
+    color: var(--white-color-text);
+
+    ont-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    letter-spacing: 0.06em;
+
+}
+
+.bgd-main>button{
+    color:  var(--white-color-text);
+    background-color: var(--bgd-button);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+    letter-spacing: 0.06em;
+
+    cursor:pointer;
+
+}
+
+/* Section peculiarity */
+
+.peculiarity{
+
+    letter-spacing: 0.03em;
+}
+
+.subtitle{
+    color: var(--titel-color-text);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.post{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* Section works img */
+
+.title{
+    color: var(--titel-color-text);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+  
+    letter-spacing: 0.03em;
+}
+
+/*  Section team */
+
+.team{
+    font-weight:400;
+    font-size: 16px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
+}
+.name{
+    color: var(--titel-color-text);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/* footer */
+
+.site-bottom{
+    background-color: var(--bgd-accent-color);
+    color: rgba(255, 255, 255, 0.6);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+
+    letter-spacing: 0.03em;
+}
+
+.site-bottom>a,
+.site-bottom p{
+    color: var(--white-color-text);
+}
