@@ -13,6 +13,8 @@ body{
 
     font-family: 'Roboto', sans-serif;
 
+    letter-spacing: 0.03em
+
 }
 .list{
     list-style: none;
@@ -33,15 +35,12 @@ body{
 
 /* header */
 
-.header{
+.nav-list,
+.top-list{
     letter-spacing: 0.02em;
 }
 
 /*  Navigation */
-
-.nav-list .nav-link:current{
-    color: var(--bgd-button);
-}
 
 .nav-link {
     color: var(--titel-color-text);
@@ -52,7 +51,6 @@ body{
 
     text-decoration: none;
 }
-
 
 /* logotype */
 
@@ -65,7 +63,7 @@ body{
     font-size: 26px;
     line-height: 1.92;
  
-    letter-spacing: 0.03em;
+ 
     text-decoration: none;
 }
 
@@ -121,10 +119,7 @@ body{
 }
 /* Section peculiarity */
 
-.peculiarity{
 
-    letter-spacing: 0.03em;
-}
 
 .subtitle{
     color: var(--titel-color-text);
@@ -149,8 +144,6 @@ body{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-  
-    letter-spacing: 0.03em;
 }
 
 /*  Section team */
@@ -158,8 +151,6 @@ body{
 .team{
     font-size: 16px;
     line-height: 1.19;
-
-    letter-spacing: 0.03em;
 }
 .name{
     color: var(--titel-color-text);
@@ -171,15 +162,13 @@ body{
 
 /* Footer */
 
-.connection-bottom{
+.nav-bot{
     background-color: var(--bgd-accent-color);
     color: rgba(255, 255, 255, 0.6);
 
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-
-    letter-spacing: 0.03em;
 }
 
 .contact-bot{
@@ -189,10 +178,16 @@ body{
     text-decoration: none;
 }
 
-.connection-bottom>a,
+.nav-bot>a,
 .map-link{
     color: var(--white-color-text);
 }
 
+/* 2 Main Portfolio */
 
-
+.filter{
+    color: var(--titel-color-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
