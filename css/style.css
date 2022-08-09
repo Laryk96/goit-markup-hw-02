@@ -44,7 +44,6 @@ body{
 
 .nav-link {
     color: var(--titel-color-text);
-
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -87,14 +86,13 @@ body{
     background-color: var(--bgd-accent-color);
 }   
 
-.main-title{
+.hero-title{
     color: var(--white-color-text);
-
     ont-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-
     letter-spacing: 0.06em;
+    text-align: center;
 }
 
 /* Batton */
@@ -102,11 +100,9 @@ body{
 .button{
     color:  var(--white-color-text);
     background-color: var(--bgd-button);
-
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-
     letter-spacing: 0.06em;
 
     cursor:pointer;
@@ -123,14 +119,12 @@ body{
 
 .subtitle{
     color: var(--titel-color-text);
-
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
 }
 
-.post{
-   
+.post{  
     font-size: 14px;
     line-height: 1.7;
 }
@@ -140,7 +134,6 @@ body{
 .title-work,
 .title-team{
     color: var(--titel-color-text);
-
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -154,7 +147,6 @@ body{
 }
 .name{
     color: var(--titel-color-text);
-
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -165,7 +157,6 @@ body{
 .nav-bot{
     background-color: var(--bgd-accent-color);
     color: rgba(255, 255, 255, 0.6);
-
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -192,3 +183,30 @@ body{
     line-height: 1.62;
 }
 
+.filter-bottum{
+    width: 81px;
+    height: 26px;
+    font-family: inherit;
+}
+.filter-bottum:hover,
+.filter-bottum:focus{
+    color: var(--white-color-text);
+    background-color: var(--bgd-button);
+}
+
+.project{
+        text-decoration: none;
+}
+
+.project-title{
+    color: var(--titel-color-text);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.project-descript{
+    color: var(--main-color-text);
+    font-size: 16px;
+    line-height: 1.85;      
+}
