@@ -105,11 +105,12 @@ body{
     line-height: 30px;
     letter-spacing: 0.06em;
 
+    border: none;
     cursor:pointer;
 }
 
-.botton:hover,
-.botton:focus{
+.button:hover,
+.button:focus{
     color: var(--bgd-button);
     background-color:var(--white-color-text);
 }
@@ -183,13 +184,16 @@ body{
     line-height: 1.62;
 }
 
-.filter-bottum{
+.filter-button{
+    border: none;
     width: 81px;
     height: 26px;
+
     font-family: inherit;
 }
-.filter-bottum:hover,
-.filter-bottum:focus{
+
+.filter-button:hover,
+.filter-button:focus{
     color: var(--white-color-text);
     background-color: var(--bgd-button);
 }
