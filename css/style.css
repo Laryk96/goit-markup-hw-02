@@ -18,10 +18,10 @@ body {
 
 .nav-link:hover,
 .nav-link:focus,
-.contact-top :hover,
-.contact-top :focus,
-.contact-bot :hover,
-.contact-bot :focus {
+.contact-link-top:hover,
+.contact-link-top:focus,
+.contact-link-bot:hover,
+.contact-link-bot:focus {
   color: var(--bgd-button);
 }
 
@@ -41,7 +41,7 @@ body {
   line-height: 1.14;
 
   text-decoration: none;
-}
+}  
 
 /* logotype */
 
